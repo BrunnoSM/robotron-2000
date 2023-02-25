@@ -9,7 +9,8 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
+    background: url(../img/fundo.jpg) no-repeat;
+    background-size: 100%;
     background-position: center center;
     background-size: cover cover;
     padding: 0;
@@ -41,7 +42,6 @@ main {
     height: 110%;
     z-index: 1;
     position: absolute;
-    left: -20%;
     top: -5%;
 }
 
@@ -51,7 +51,7 @@ main {
     font-size: 130px;
     position: absolute;
     bottom: 7rem;
-    left: -3rem;
+    left: 1rem;
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
